@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio de Ciencia de Datos – Francisco</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    header { padding: 56px 20px; text-align: center; background: #f5f7fb; }
+    h1 { margin: 0 0 8px; font-size: 40px; }
+    h2 { margin-top: 40px; }
+    .container { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 16px; background: #fff; }
+    .muted { color: #555; }
+    a.button { display: inline-block; padding: 10px 14px; border-radius: 8px; border: 1px solid #1f6feb; text-decoration: none; }
+    a.button:hover { background: #1f6feb; color: white; }
+    footer { text-align: center; padding: 32px 20px; color: #666; }
+    ul { margin-top: 8px; }
+    code { background: #f1f3f5; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>portafolio-datosFrancisco</h1>
+    <p class="muted">Portafolio de Ciencia de Datos</p>
+    <p><a class="button" href="Portafolio_Ciencia_Datos.pdf">Descargar versión PDF</a></p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Resumen</h2>
+      <p>Este portafolio muestra proyectos seleccionados de análisis de datos, modelado predictivo y visualización. Incluye enlaces a notebooks, datasets y resultados.</p>
+    </section>
+
+    <section>
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>1) Análisis de ventas e insights de clientes</h3>
+          <p class="muted">Python · pandas · visualización</p>
+          <ul>
+            <li><a href="proyectos/ventas_eda.ipynb">Notebook (.ipynb)</a></li>
+            <li><a href="proyectos/imagenes/ventas_barras.png">Gráfico de barras</a></li>
+            <li><a href="proyectos/README_ventas.md">Descripción del proyecto</a></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>2) Predicción de churn en telecomunicaciones</h3>
+          <p class="muted">scikit-learn · regresión logística · métricas</p>
+          <ul>
+            <li><a href="proyectos/churn_modelo.ipynb">Notebook (.ipynb)</a></li>
+            <li><a href="proyectos/imagenes/matriz_confusion.png">Matriz de confusión</a></li>
+            <li><a href="proyectos/README_churn.md">Descripción del proyecto</a></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>3) Visualización COVID-19 LATAM</h3>
+          <p class="muted">Tableau · series de tiempo · mapas</p>
+          <ul>
+            <li><a href="https://public.tableau.com/">Tablero (Tableau Public)</a></li>
+            <li><a href="proyectos/covid_analisis.ipynb">Notebook (.ipynb)</a></li>
+            <li><a href="proyectos/README_covid.md">Descripción del proyecto</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Lenguajes: Python, R, SQL</li>
+        <li>Bibliotecas: pandas, NumPy, Matplotlib, scikit-learn</li>
+        <li>Herramientas: GitHub, Google Colab, Tableau, Power BI, Excel</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <ul>
+        <li>GitHub: <a href="https://github.com/">https://github.com/</a></li>
+        <li>LinkedIn: <a href="#">Tu perfil</a></li>
+        <li>Email: <a href="mailto:tucorreo@correo.com">tucorreo@correo.com</a></li>
+      </ul>
+      <p class="muted">Tip: Coloca los notebooks y recursos en la carpeta <code>proyectos/</code> para que estos enlaces funcionen.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 · Portafolio de Ciencia de Datos
+  </footer>
+</body>
+</html>
